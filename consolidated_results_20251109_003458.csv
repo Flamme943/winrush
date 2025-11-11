@@ -1,0 +1,2 @@
+match_id,home_team,away_team,raw_prediction_1X2,vote_count,total_sources,is_coup_sur
+TEST_MATCH_20251109_A,Manchester City,Arsenal,1,12,20,True

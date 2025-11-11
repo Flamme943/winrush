@@ -1,0 +1,5 @@
+match_id,source_name,timestamp,competition,home_team,away_team,raw_prediction_1X2,raw_odd_1X2,source_reliability
+TEST_MATCH_20251109_A,PredictZ,2025-11-09T00:28:43.364817,Premier League,Manchester City,Arsenal,1,1.55,0.85
+TEST_MATCH_20251109_A,Source_B,2025-11-09T00:28:43.364834,Premier League,Manchester City,Arsenal,1,1.5,0.7
+TEST_MATCH_20251109_A,Source_C,2025-11-09T00:28:43.364839,Premier League,Manchester City,Arsenal,X,3.4,0.9
+TEST_MATCH_20251109_B,PredictZ,2025-11-09T00:28:43.364842,Bundesliga,Bayern Munich,Dortmund,X,3.4,0.85

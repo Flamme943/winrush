@@ -1,0 +1,6 @@
+match_id,home_team,away_team,raw_prediction,vote_count,total_sources,is_coup_sur,prediction_type
+TEST_MATCH_20251109_A,Manchester City,Arsenal,1,12,20,True,1X2
+TEST_MATCH_20251109_A,Manchester City,Arsenal,Yes,12,20,True,BTTS (Les deux équipes marquent)
+TEST_MATCH_20251109_A,Manchester City,Arsenal,Over 2.5,12,20,True,Total Plus/Moins de 2.5
+TEST_MATCH_20251109_A,Manchester City,Arsenal,Over 4.5,12,20,True,Total Cartons Jaunes
+TEST_MATCH_20251109_A,Manchester City,Arsenal,V1+Yes,12,20,True,Résultat + BTTS (Combiné)

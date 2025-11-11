@@ -1,0 +1,21 @@
+match_id,source_name,timestamp,competition,home_team,away_team,raw_prediction_1X2,raw_odd_1X2,raw_prediction_BTTS,raw_odd_BTTS,raw_prediction_OU25,raw_odd_OU25,raw_prediction_YCards,raw_odd_YCards,raw_prediction_RBTT,raw_odd_RBTT,source_reliability
+TEST_MATCH_20251109_A,Source_1,2025-11-09T01:20:31.584777,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_2,2025-11-09T01:20:31.584803,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_3,2025-11-09T01:20:31.584812,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_4,2025-11-09T01:20:31.584817,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_5,2025-11-09T01:20:31.584822,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_6,2025-11-09T01:20:31.584826,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_7,2025-11-09T01:20:31.584829,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_8,2025-11-09T01:20:31.584833,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_9,2025-11-09T01:20:31.584837,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_10,2025-11-09T01:20:31.584841,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_11,2025-11-09T01:20:31.584845,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_12,2025-11-09T01:20:31.584849,Premier League,Manchester City,Arsenal,1,1.5,Yes,1.7,Over 2.5,1.8,Over 4.5,1.75,V1+Yes,2.69,0.8
+TEST_MATCH_20251109_A,Source_13,2025-11-09T01:20:31.584852,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_14,2025-11-09T01:20:31.584856,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_15,2025-11-09T01:20:31.584871,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_16,2025-11-09T01:20:31.584875,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_17,2025-11-09T01:20:31.584878,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_18,2025-11-09T01:20:31.584882,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_19,2025-11-09T01:20:31.584885,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
+TEST_MATCH_20251109_A,Source_20,2025-11-09T01:20:31.584889,Premier League,Manchester City,Arsenal,X,3.5,No,2.1,Under 2.5,2.0,Under 4.5,2.05,X+No,5.35,0.8
