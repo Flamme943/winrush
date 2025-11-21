@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 import pandas as pd
 import os
 from datetime import datetime
-from analyzer import analyze_raw_data # Importe votre fonction d'analyse
+from analyzer import analyze_raw_data 
 
 app = Flask(__name__)
 
@@ -10,7 +10,7 @@ def get_latest_results():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     try:
         all_files = os.listdir(BASE_DIR)
-        # Trouve le fichier raw_data le plus récent (les données brutes)
+        # Trouve le fichier raw_data le plus récent pour faire une analyse en direct
         raw_files = [f for f in all_files if f.startswith('raw_data_simulated_') and f.endswith('.csv')]
         
         if not raw_files:
@@ -18,7 +18,7 @@ def get_latest_results():
 
         latest_file = max(raw_files)
         
-        # Lance l'analyse en direct sur le fichier
+        # Lance l'analyse pour obtenir les données avec les heures
         df_results = analyze_raw_data(latest_file)
         
         if df_results.empty:
@@ -33,12 +33,13 @@ def get_latest_results():
 
 @app.route('/', methods=['GET'])
 def home():
-    return "API WinRush Active", 200
+    return "API WinRush Active (Mode Production)", 200
 
 @app.route('/api/v1/pronostics/today', methods=['GET'])
 def get_today_pronostics():
     results = get_latest_results()
     
+    # Même si c'est vide, on renvoie un succès pour ne pas faire planter l'app
     return jsonify({
         "status": "success",
         "timestamp": datetime.now().isoformat(),
