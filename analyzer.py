@@ -36,16 +36,17 @@ def analyze_raw_data(raw_data_filepath):
     match_time_map = {}
     
     for m_id in unique_match_ids:
-        # Génère une heure aléatoire
+        # Génère une heure aléatoire entre 14h00 et 23h00
         h = random.randint(14, 22)
         m = random.choice(['00', '15', '30', '45'])
         match_time_map[m_id] = f"{h}:{m}"
 
     for p_type in prediction_types:
-        # Compter les votes
+        # Vérifie si la colonne existe
         if p_type['col_pred'] not in df_raw.columns:
-            continue # Ignorer si la colonne n'existe pas dans le CSV
+            continue
 
+        # Compter les votes
         consensus_df = df_raw.groupby(['match_id', 'home_team', 'away_team', p_type['col_pred']]).size().reset_index(name='vote_count')
         consensus_df['prediction_type'] = p_type['type']
         
@@ -56,6 +57,8 @@ def analyze_raw_data(raw_data_filepath):
             df_coups_surs.rename(columns={p_type['col_pred']: 'raw_prediction'}, inplace=True)
             df_coups_surs['is_coup_sur'] = True
             df_coups_surs['total_sources'] = TOTAL_SOURCES
+            
+            # AJOUTER L'HEURE DU MATCH
             df_coups_surs['match_time'] = df_coups_surs['match_id'].map(match_time_map)
             
             all_consensus_results.append(df_coups_surs)
@@ -64,4 +67,6 @@ def analyze_raw_data(raw_data_filepath):
         return pd.DataFrame()
         
     df_final = pd.concat(all_consensus_results, ignore_index=True)
+    
+    # Retourne le DataFrame avec la colonne match_time
     return df_final[['match_id', 'home_team', 'away_team', 'raw_prediction', 'vote_count', 'total_sources', 'is_coup_sur', 'prediction_type', 'match_time']]
